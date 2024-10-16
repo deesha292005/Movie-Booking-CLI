@@ -1,9 +1,15 @@
 ## Movie-Booking-CLI
+
 This is a mini project in C language on a movie booking UI.
 
-As part of the case study 24 for the course Problem Solving with C, this is teh project for a simple Command Line Movie booking System.
+It is a menu driven C program which is a simulation of a movie booking system.
+Currently it does a one time read from the csv file, purely for UI purposes.
+It reads which seat numbers have been booked and displays them red, the others green, allowing users to purchase those seats.
+The code however does not dynamically update the csv file, when a new seat is booked.
 
-Currently Version : The entire code has been implemented as a menu driven program using structures and dynamic memory allocation.
+Instructions to run the code:
 
-Future Scope: Add File Handling principles to store previous user data so that the auditorium view feature works better and is more realistic. Add more colour and design the menu properly.
-
+```sh
+gcc -o main.c main
+./main
+```
