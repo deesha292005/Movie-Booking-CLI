@@ -3,13 +3,14 @@
 This is a mini project in C language on a movie booking UI.
 
 It is a menu driven C program which is a simulation of a movie booking system.
-Currently it does a one time read from the csv file, purely for UI purposes.
-It reads which seat numbers have been booked and displays them red, the others green, allowing users to purchase those seats.
-The code however does not dynamically update the csv file, when a new seat is booked.
+
+There is a csv file, which manages some booked seat numbers. Essentially everytime a seat is booked using main.c the csv file
+is updated. However this update is valid only for the instance of the run. Once you exit the program and restart, the previously
+booked seats are still empty.
 
 Instructions to run the code:
 
 ```sh
-gcc -o main.c main
+gcc main.c -o main
 ./main
 ```
