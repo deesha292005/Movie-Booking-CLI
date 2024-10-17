@@ -10,6 +10,6 @@ to each issue. Kindly make sure that the PR made should be towards the respectiv
 You are free to comment any doubts in the respective issue page.
 
 If you do end up finding any issues that are not given in the issues tab while running the code, which is worth solving do
-let us know by creating a new issue yourself or by simply any of the volunteers around you.
+let us know by creating a new issue yourself or by simply any of the volunteers around you. You can be awarded brownie points for this if the issue is significant enough!
 
 Have fun contributing!
